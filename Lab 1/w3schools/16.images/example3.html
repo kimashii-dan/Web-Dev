@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <style>
+        p {
+          background-image: url('img_girl.jpg');
+        }
+        body {
+            background-image: url('img_girl.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;/*background-size: 100% 100%;*/
+        }
+    </style>
+</head> 
+<body>
+    <p style="background-image: url('img_girl.jpg');"></p>
+
+    <picture><!--for different cases different sources may occur-->
+        <source srcset="img_avatar.png">
+        <source srcset="img_girl.jpg">
+        <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+      </picture>
+</body>
+</html>
