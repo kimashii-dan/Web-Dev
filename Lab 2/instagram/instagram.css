@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Noto Sans", serif;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px
+}
+
+.pics {
+    position: relative;
+    width: 45%;
+}
+
+.absolute {
+    position: absolute;
+    left: 155px;
+    top: 25px
+}
+
+.logo-img {
+    width: 200px;
+    padding: 20px
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    padding: 20px;
+    border: 1px lightgrey solid
+}
+
+form input {
+    padding: 10px;
+    border: 1px lightgray solid;
+    border-radius: 3px;
+    background-color: #F5F6F7;
+    font-family: "Noto Sans", serif;
+
+}
+
+input::placeholder {
+    font-size: small;
+    color: grey;
+}
+
+input:focus {
+    border: 1px rgb(87, 87, 254) solid;
+    outline: none
+}
+
+.form {
+    width: 45%;
+    text-align: center;
+
+}
+
+button[type=submit] {
+    border: none;
+    background-color: rgb(87, 87, 254);
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    width: 80%;
+    font-family: "Noto Sans", serif;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%
+}
+
+
+hr {
+    background-color: lightgrey;
+    height: 1px;
+    width: 100%;
+    border: none;
+    margin: 0
+}
+
+.or {
+    position: relative;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 12px 0
+}
+
+.or p {
+    position: absolute;
+    top: -25px;
+    padding: 0 15px;
+    background-color: white;
+    font-size: medium;
+    font-weight: 500;
+    color: grey
+}
+
+
+
+.facebook img {
+    width: 20px
+}
+
+.facebook {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(89, 89, 241);
+    font-weight: 700;
+    font-size: 14px
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.register {
+    margin-top: 10px;
+    border: 1px lightgray solid;
+    font-size: 15px;
+}
+
+.register p {
+    margin: 20px 0;
+}
+
+
+.download {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.download p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.download h3 {
+    margin: 0;
+    font-weight: 600;
+}
+
+
+
+
+.googleplay {
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 39%;
+    justify-content: center;
+}
+
+.appstore {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    width: 39%;
+    justify-content: center;
+}
+
+.appstore img {
+    width: 30px
+}
+
+.googleplay img {
+    width: 50px
+}
+
+.text-btn {
+    text-align: left;
+}
+
+.download button {
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: grey;
+    margin-top: 20px;
+}
+
+.footer_div {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    border: none;
+    color: grey;
+    font-size: 12px;
+    width: 6vw;
+    margin-right: 1vh;
+}
+
+.link_footer {
+    text-decoration: none;
+    padding: 1.2vh;
+    color: grey;
+    font-size: small;
+}
+
+.link_footer:hover {
+    text-decoration: underline;
+}
+
+#lite:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(245, 245, 245);
+}

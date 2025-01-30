@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #F5F6F7;
+    margin: 0;
+    font-family: "Inter", serif;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    gap: 100px;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+form input {
+    padding: 15px;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    font-size: larger;
+    color: lightgray;
+}
+
+input:focus {
+    border: 1px rgb(87, 87, 254) solid;
+    outline: none
+}
+
+.title {
+    width: 45%;
+    padding: 50px 0
+}
+
+.title h1 {
+    font-size: 60px;
+    margin: 0;
+    color: rgb(87, 87, 254);
+}
+
+.title p {
+    font-size: 25px;
+    margin: 10px 0 0 0;
+    font-weight: 500;
+}
+
+.form {
+    width: 40%;
+    text-align: center;
+}
+
+button[type=submit] {
+    border: none;
+    background-color: rgb(87, 87, 254);
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.create-account {
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(87, 87, 254);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+hr {
+    background-color: lightgrey;
+    height: 1px;
+    width: 100%;
+    border: none;
+    margin: 0
+}
+
+.text {
+    font-size: 15px;
+    margin: 30px 0 0 0;
+}
