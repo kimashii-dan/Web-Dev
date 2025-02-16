@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "assets/images/63923195772958.jpg",
+      "name": "Bosch WAV28MX0ME Washing Machine",
+      "description": "Silver-colored washing machine with a 9 kg load capacity, 1400 rpm spin speed, and A+++ energy efficiency class.",
+      "rating": 5.0,
+      "url": "https://kaspi.kz/shop/p/bosch-wav28mx0me-serebristyi-100532556/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/bosch-wav28mx0me-serebristyi-100532556/&text=Check+this+product!"
+    },
+    {
+      "id": 2,
+      "image": "assets/images/84855920525342.jpg",
+      "name": "Samsung WW80AG6L28BELD Washing Machine",
+      "description": "White washing machine with an 8 kg load capacity, 1400 rpm spin speed, and A+++ energy efficiency class.",
+      "rating": 5.0,
+      "url": "https://kaspi.kz/shop/p/samsung-ww80ag6l28beld-belyi-112768209/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/samsung-ww80ag6l28beld-belyi-112768209/&text=Check+this+product!"
+    },
+    {
+      "id": 3,
+      "image": "assets/images/86303746097182.jpg",
+      "name": "Apple iPhone 15 256GB Black",
+      "description": "Smartphone with 256GB storage in black color.",
+      "rating": 4.8,
+      "url": "https://kaspi.kz/shop/p/apple-iphone-15-256gb-chernyi-113137897/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/apple-iphone-15-256gb-chernyi-113137897/&text=Check+this+product!"
+    },
+    {
+      "id": 4,
+      "image": "assets/images/86301430546462.jpg",
+      "name": "Microsoft Surface Laptop 5 15",
+      "description": "15-inch laptop with 32GB RAM and 1TB SSD, running Windows 11.",
+      "rating": 4.7,
+      "url": "https://kaspi.kz/shop/p/microsoft-surface-laptop-5-15-32-gb-1-tb-windows-11-seryi-120497796/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/microsoft-surface-laptop-5-15-32-gb-1-tb-windows-11-seryi-120497796/&text=Check+this+product!"
+    },
+    {
+      "id": 5,
+      "image": "assets/images/79741760864286.jpg",
+      "name": "HP 15s 15.6 Laptop",
+      "description": "15.6-inch laptop with 8GB RAM and 256GB SSD, without OS.",
+      "rating": 4.5,
+      "url": "https://kaspi.kz/shop/p/hp-15s-eq2125ur-6n0u5ea-serebristyi-109731304/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/hp-15s-eq2125ur-6n0u5ea-serebristyi-109731304/&text=Check+this+product!"
+    },
+    {
+      "id": 6,
+      "image": "assets/images/83034144309278.jpg",
+      "name": "Hansa BK3387.6DFVAAW Refrigerator",
+      "description": "White built-in refrigerator with two chambers and A++ energy class.",
+      "rating": 4.6,
+      "url": "https://kaspi.kz/shop/p/hansa-bk3387-6dfvaaw-belyi-112746346/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/hansa-bk3387-6dfvaaw-belyi-112746346/&text=Check+this+product!"
+    },
+    {
+      "id": 7,
+      "image": "assets/images/63956934361118.jpg",
+      "name": "HP Pavilion Gaming 15-ec1026ur",
+      "description": "Black gaming laptop with high performance.",
+      "rating": 4.8,
+      "url": "https://kaspi.kz/shop/p/hp-pavilion-gaming-15-ec1026ur-1w8r7ea-chernyi-100621869/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/hp-pavilion-gaming-15-ec1026ur-1w8r7ea-chernyi-100621869/&text=Check+this+product!"
+    },
+    {
+      "id": 8,
+      "image": "assets/images/86261115060254.jpg",
+      "name": "Case for Apple iPhone 13 transparent",
+      "description": "A reliable and stylish case for your smartphone that provides protection from scratches, shocks and dirt.",
+      "rating": 4.7,
+      "url": "https://kaspi.kz/shop/p/dlja-apple-iphone-13-prozrachnyi-106185651/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/dlja-apple-iphone-13-prozrachnyi-106185651/&text=Check+this+product!"
+    },
+    {
+      "id": 9,
+      "image": "assets/images/64377056231454.jpg",
+      "name": "Charger Apple 18W USB-C Power Adapter USB Type-C white",
+      "description": "The Apple 18W USB-C Power Adapter is a compact and efficient charger designed to charge your devices quickly and efficiently.",
+      "rating": 4.5,
+      "url": "https://kaspi.kz/shop/p/apple-18w-usb-c-power-adapter-usb-type-c-belyi-102743952/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/apple-18w-usb-c-power-adapter-usb-type-c-belyi-102743952/&text=Check+this+product!"
+    },
+    {
+      "id": 10,
+      "image": "assets/images/64373052571678.jpg",
+      "name": "Laptop Lenovo IdeaPad 3 15.6  4 GB  SSD 256 GB  Without OS  15IGL05  81WQ00EMRK",
+      "description": "The IdeaPad 3 costs like a regular laptop for everyday use, but this device is capable of more.",
+      "rating": 4.6,
+      "url": "https://kaspi.kz/shop/p/lenovo-ideapad-3-15-6-4-gb-ssd-256-gb-bez-os-15igl05-81wq00emrk-102878742/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/lenovo-ideapad-3-15-6-4-gb-ssd-256-gb-bez-os-15igl05-81wq00emrk-102878742/&text=Check+this+product!"
+    }
+  ]
+}
