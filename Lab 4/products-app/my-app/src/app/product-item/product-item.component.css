@@ -33,7 +33,7 @@
 }
 
 section.listing a {
-    padding-left: 20px;
+
     text-decoration: none;
     color: var(--primary-color);
 }
@@ -41,4 +41,13 @@ section.listing a {
 section.listing a::after {
     content: "\203A";
     margin-left: 5px;
+}
+
+
+
+.listing button {
+    background-color: inherit;
+    border: none;
+    font-size: 50px;
+    cursor: pointer
 }

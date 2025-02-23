@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Product } from '../product';
 import { RouterModule } from '@angular/router';
@@ -17,6 +17,12 @@ import { RouterModule } from '@angular/router';
       <p class="listing-location">
         {{ productItem.description }}, {{ productItem.rating }}
       </p>
+      <div>
+        <button (click)="onDelete()">🗑</button>
+        <button (click)="onLike()">
+          {{ productItem.liked ? '👎' : '👍' }}
+        </button>
+      </div>
       <a target="_blank" [href]="productItem.url">Link</a>
       <a target="_blank" [href]="productItem.telegram">Telegram</a>
     </section>
@@ -25,4 +31,14 @@ import { RouterModule } from '@angular/router';
 })
 export class ProductItemComponent {
   @Input() productItem!: Product;
+  @Output() delete = new EventEmitter<number>();
+  @Output() like = new EventEmitter<number>();
+
+  onDelete() {
+    this.delete.emit(this.productItem.id);
+  }
+
+  onLike() {
+    this.like.emit(this.productItem.id);
+  }
 }

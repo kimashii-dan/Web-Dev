@@ -7,7 +7,8 @@
       "description": "Silver-colored washing machine with a 9 kg load capacity, 1400 rpm spin speed, and A+++ energy efficiency class.",
       "rating": 5.0,
       "url": "https://kaspi.kz/shop/p/bosch-wav28mx0me-serebristyi-100532556/",
-      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/bosch-wav28mx0me-serebristyi-100532556/&text=Check+this+product!"
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/bosch-wav28mx0me-serebristyi-100532556/&text=Check+this+product!",
+      "category": "household appliances"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "description": "White washing machine with an 8 kg load capacity, 1400 rpm spin speed, and A+++ energy efficiency class.",
       "rating": 5.0,
       "url": "https://kaspi.kz/shop/p/samsung-ww80ag6l28beld-belyi-112768209/",
-      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/samsung-ww80ag6l28beld-belyi-112768209/&text=Check+this+product!"
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/samsung-ww80ag6l28beld-belyi-112768209/&text=Check+this+product!",
+      "category": "household appliances"
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "description": "Smartphone with 256GB storage in black color.",
       "rating": 4.8,
       "url": "https://kaspi.kz/shop/p/apple-iphone-15-256gb-chernyi-113137897/",
-      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/apple-iphone-15-256gb-chernyi-113137897/&text=Check+this+product!"
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/apple-iphone-15-256gb-chernyi-113137897/&text=Check+this+product!",
+      "category": "phones"
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "description": "15-inch laptop with 32GB RAM and 1TB SSD, running Windows 11.",
       "rating": 4.7,
       "url": "https://kaspi.kz/shop/p/microsoft-surface-laptop-5-15-32-gb-1-tb-windows-11-seryi-120497796/",
-      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/microsoft-surface-laptop-5-15-32-gb-1-tb-windows-11-seryi-120497796/&text=Check+this+product!"
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/microsoft-surface-laptop-5-15-32-gb-1-tb-windows-11-seryi-120497796/&text=Check+this+product!",
+      "category": "laptops"
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "description": "15.6-inch laptop with 8GB RAM and 256GB SSD, without OS.",
       "rating": 4.5,
       "url": "https://kaspi.kz/shop/p/hp-15s-eq2125ur-6n0u5ea-serebristyi-109731304/",
-      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/hp-15s-eq2125ur-6n0u5ea-serebristyi-109731304/&text=Check+this+product!"
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/hp-15s-eq2125ur-6n0u5ea-serebristyi-109731304/&text=Check+this+product!",
+      "category": "laptops"
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "description": "White built-in refrigerator with two chambers and A++ energy class.",
       "rating": 4.6,
       "url": "https://kaspi.kz/shop/p/hansa-bk3387-6dfvaaw-belyi-112746346/",
-      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/hansa-bk3387-6dfvaaw-belyi-112746346/&text=Check+this+product!"
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/hansa-bk3387-6dfvaaw-belyi-112746346/&text=Check+this+product!",
+      "category": "household appliances"
     },
     {
       "id": 7,
@@ -61,34 +67,88 @@
       "description": "Black gaming laptop with high performance.",
       "rating": 4.8,
       "url": "https://kaspi.kz/shop/p/hp-pavilion-gaming-15-ec1026ur-1w8r7ea-chernyi-100621869/",
-      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/hp-pavilion-gaming-15-ec1026ur-1w8r7ea-chernyi-100621869/&text=Check+this+product!"
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/hp-pavilion-gaming-15-ec1026ur-1w8r7ea-chernyi-100621869/&text=Check+this+product!",
+      "category": "laptops"
     },
     {
       "id": 8,
-      "image": "assets/images/86261115060254.jpg",
-      "name": "Case for Apple iPhone 13 transparent",
-      "description": "A reliable and stylish case for your smartphone that provides protection from scratches, shocks and dirt.",
-      "rating": 4.7,
-      "url": "https://kaspi.kz/shop/p/dlja-apple-iphone-13-prozrachnyi-106185651/",
-      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/dlja-apple-iphone-13-prozrachnyi-106185651/&text=Check+this+product!"
+      "image": "assets/images/samsungs23.jpg",
+      "name": "Samsung Galaxy S23 Ultra 512GB",
+      "description": "Flagship smartphone with 200MP camera, 512GB storage, and 5G connectivity.",
+      "rating": 4.9,
+      "url": "https://kaspi.kz/shop/p/samsung-galaxy-s23-ultra-12-512gb-chernyi-109174566/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/samsung-galaxy-s23-ultra-12-512gb-chernyi-109174566/&text=Check+this+product!",
+      "category": "phones"
     },
     {
       "id": 9,
-      "image": "assets/images/64377056231454.jpg",
-      "name": "Charger Apple 18W USB-C Power Adapter USB Type-C white",
-      "description": "The Apple 18W USB-C Power Adapter is a compact and efficient charger designed to charge your devices quickly and efficiently.",
-      "rating": 4.5,
-      "url": "https://kaspi.kz/shop/p/apple-18w-usb-c-power-adapter-usb-type-c-belyi-102743952/",
-      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/apple-18w-usb-c-power-adapter-usb-type-c-belyi-102743952/&text=Check+this+product!"
+      "image": "assets/images/xiaomi12pro.jpg",
+      "name": "Xiaomi Redmi Note 12 Pro 5G",
+      "description": "6.67-inch AMOLED display, 120Hz refresh rate, 128GB storage.",
+      "rating": 4.7,
+      "url": "https://kaspi.kz/shop/p/xiaomi-redmi-note-12-pro-5g-8-gb-256-gb-seryi-109775102/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/xiaomi-redmi-note-12-pro-5g-8-gb-256-gb-seryi-109775102/&text=Check+this+product!",
+      "category": "phones"
     },
     {
       "id": 10,
       "image": "assets/images/64373052571678.jpg",
-      "name": "Laptop Lenovo IdeaPad 3 15.6  4 GB  SSD 256 GB  Without OS  15IGL05  81WQ00EMRK",
-      "description": "The IdeaPad 3 costs like a regular laptop for everyday use, but this device is capable of more.",
+      "name": "Lenovo IdeaPad 3 15.6 Laptop",
+      "description": "15.6-inch laptop with 4GB RAM, 256GB SSD, and no OS pre-installed.",
       "rating": 4.6,
       "url": "https://kaspi.kz/shop/p/lenovo-ideapad-3-15-6-4-gb-ssd-256-gb-bez-os-15igl05-81wq00emrk-102878742/",
-      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/lenovo-ideapad-3-15-6-4-gb-ssd-256-gb-bez-os-15igl05-81wq00emrk-102878742/&text=Check+this+product!"
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/lenovo-ideapad-3-15-6-4-gb-ssd-256-gb-bez-os-15igl05-81wq00emrk-102878742/&text=Check+this+product!",
+      "category": "laptops"
+    },
+    {
+      "id": 11,
+      "image": "assets/images/microwavelg.jpg",
+      "name": "LG MS2042V Microwave",
+      "description": "20L microwave with 800W power, 5 cooking programs, and child lock.",
+      "rating": 4.6,
+      "url": "https://kaspi.kz/shop/p/lg-ms2044v-seryi-112446552/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/lg-ms2044v-seryi-112446552/&text=Check+this+product!",
+      "category": "household appliances"
+    },
+    {
+      "id": 12,
+      "image": "assets/images/dyson.jpg",
+      "name": "Dyson V12 Detect Slim Vacuum",
+      "description": "Cordless vacuum with laser dust detection, 60-minute runtime.",
+      "rating": 4.8,
+      "url": "https://kaspi.kz/shop/p/dyson-v12-detect-slim-absolute-fioletovyi-serebristyi-102980912/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/dyson-v12-detect-slim-absolute-fioletovyi-serebristyi-102980912/&text=Check+this+product!",
+      "category": "household appliances"
+    },
+    {
+      "id": 13,
+      "image": "assets/images/googlepixel.jpg",
+      "name": "Google Pixel 7 Pro 128GB",
+      "description": "Android smartphone with Tensor G2 chip, 128GB storage, and 120Hz display.",
+      "rating": 4.7,
+      "url": "https://kaspi.kz/shop/p/google-pixel-7-pro-12-gb-256-gb-belyi-107066176/",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/google-pixel-7-pro-12-gb-256-gb-belyi-107066176/&text=Check+this+product!",
+      "category": "phones"
+    },
+    {
+      "id": 14,
+      "image": "assets/images/oneplus.jpg",
+      "name": "OnePlus 10 Pro 256GB",
+      "description": "6.7-inch Fluid AMOLED display, Snapdragon 8 Gen 1, Hasselblad camera.",
+      "rating": 4.8,
+      "url": "https://kaspi.kz/shop/p/oneplus-10-pro-12-gb-256-gb-zelenyi-104314138/?srsltid=AfmBOooyc-bERSFNvH3eAWQZdOYlv6SeVtD73bxys6x5_7C27FjsIHRy",
+      "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/oneplus-10-pro-12-gb-256-gb-zelenyi-104314138/?srsltid=AfmBOooyc-bERSFNvH3eAWQZdOYlv6SeVtD73bxys6x5_7C27FjsIHRy&text=Check+this+product!",
+      "category": "phones"
+    },
+    {
+      "id": 15,
+      "image": "assets/images/acernitro.jpg",
+      "name": "Acer Nitro 5 AN515-57",
+      "description": "Gaming laptop with Intel Core i7, RTX 3060, 16GB RAM, 512GB SSD.",
+      "rating": 4.6,
+      "url": "https://kaspi.kz/shop/p/acer-nitro-5-15-6-16-gb-ssd-512-gb-bez-os-an515-57-nh-qeler-00c-107574471/",
+      "telegram": "https://kaspi.kz/shop/p/acer-nitro-5-15-6-16-gb-ssd-512-gb-bez-os-an515-57-nh-qeler-00c-107574471/&text=Check+this+product!",
+      "category": "laptops"
     }
   ]
 }

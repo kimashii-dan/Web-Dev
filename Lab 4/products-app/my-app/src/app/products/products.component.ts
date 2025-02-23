@@ -1,27 +1,98 @@
+// products.component.ts
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductItemComponent } from '../product-item/product-item.component';
 import { Product } from '../product';
 import { ProductService } from '../product.service';
+
 @Component({
   selector: 'app-home',
+  standalone: true,
   imports: [CommonModule, ProductItemComponent],
   template: `
-    <section class="results">
-      <app-product-item
-        *ngFor="let productItem of productItemList"
-        [productItem]="productItem"
-      ></app-product-item>
-    </section>
+    <div>
+      <div class="categories">
+        <button
+          [class.active]="activeCategory === 'all'"
+          (click)="filterProducts('all')"
+        >
+          All products
+        </button>
+        <button
+          [class.active]="activeCategory === 'household appliances'"
+          (click)="filterProducts('household appliances')"
+        >
+          Household
+        </button>
+        <button
+          [class.active]="activeCategory === 'phones'"
+          (click)="filterProducts('phones')"
+        >
+          Phones
+        </button>
+        <button
+          [class.active]="activeCategory === 'laptops'"
+          (click)="filterProducts('laptops')"
+        >
+          Laptops
+        </button>
+      </div>
+      <section class="results">
+        <app-product-item
+          *ngFor="let productItem of filteredProductList"
+          [productItem]="productItem"
+          (delete)="deleteProduct(productItem.id)"
+          (like)="toggleLike(productItem.id)"
+        ></app-product-item>
+      </section>
+    </div>
   `,
   styleUrls: ['./products.component.css'],
 })
 export class HomeComponent {
   productItemList: Product[] = [];
+  filteredProductList: Product[] = [];
+  activeCategory: string = 'all';
   productService: ProductService = inject(ProductService);
+
   constructor() {
-    this.productService.getAllProducts().then((productItemList: Product[]) => {
-      this.productItemList = productItemList;
-    });
+    this.loadAllProducts();
+  }
+
+  async loadAllProducts() {
+    this.productItemList = await this.productService.getAllProducts();
+    this.productItemList = this.productItemList.map((product) => ({
+      ...product,
+      liked: false,
+    }));
+    this.filteredProductList = this.productItemList;
+  }
+
+  async filterProducts(category: string) {
+    this.activeCategory = category;
+    if (category === 'all') {
+      this.filteredProductList = this.productItemList;
+    } else {
+      this.filteredProductList =
+        await this.productService.getProductsByCategory(category);
+    }
+  }
+
+  deleteProduct(id: number) {
+    this.productItemList = this.productItemList.filter(
+      (product) => product.id !== id
+    );
+    this.filteredProductList = this.filteredProductList.filter(
+      (product) => product.id !== id
+    );
+  }
+
+  toggleLike(id: number) {
+    this.productItemList = this.productItemList.map((product) =>
+      product.id === id ? { ...product, liked: !product.liked } : product
+    );
+    this.filteredProductList = this.filteredProductList.map((product) =>
+      product.id === id ? { ...product, liked: !product.liked } : product
+    );
   }
 }

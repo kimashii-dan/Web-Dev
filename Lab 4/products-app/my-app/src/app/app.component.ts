@@ -5,9 +5,7 @@ import { RouterModule } from '@angular/router';
   imports: [RouterModule],
   template: `
     <main>
-      <a [routerLink]="['/']">
-        <header class="brand-name">Products</header>
-      </a>
+      <h1 class="heading">My app</h1>
       <section class="content">
         <router-outlet></router-outlet>
       </section>
@@ -16,5 +14,5 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'homes';
+  title = 'products';
 }

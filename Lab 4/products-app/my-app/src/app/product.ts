@@ -6,4 +6,6 @@ export interface Product {
   rating: number;
   url: string;
   telegram: string;
+  category: string;
+  liked: boolean;
 }
