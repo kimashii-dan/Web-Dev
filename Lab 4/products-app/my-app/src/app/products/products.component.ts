@@ -7,7 +7,6 @@ import { ProductService } from '../product.service';
 
 @Component({
   selector: 'app-home',
-  standalone: true,
   imports: [CommonModule, ProductItemComponent],
   template: `
     <div>
@@ -61,10 +60,6 @@ export class HomeComponent {
 
   async loadAllProducts() {
     this.productItemList = await this.productService.getAllProducts();
-    this.productItemList = this.productItemList.map((product) => ({
-      ...product,
-      liked: false,
-    }));
     this.filteredProductList = this.productItemList;
   }
 
@@ -79,18 +74,12 @@ export class HomeComponent {
   }
 
   deleteProduct(id: number) {
-    this.productItemList = this.productItemList.filter(
-      (product) => product.id !== id
-    );
     this.filteredProductList = this.filteredProductList.filter(
       (product) => product.id !== id
     );
   }
 
   toggleLike(id: number) {
-    this.productItemList = this.productItemList.map((product) =>
-      product.id === id ? { ...product, liked: !product.liked } : product
-    );
     this.filteredProductList = this.filteredProductList.map((product) =>
       product.id === id ? { ...product, liked: !product.liked } : product
     );

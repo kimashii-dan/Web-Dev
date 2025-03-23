@@ -8,7 +8,8 @@
       "rating": 5.0,
       "url": "https://kaspi.kz/shop/p/bosch-wav28mx0me-serebristyi-100532556/",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/bosch-wav28mx0me-serebristyi-100532556/&text=Check+this+product!",
-      "category": "household appliances"
+      "category": "household appliances",
+      "liked": false
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "rating": 5.0,
       "url": "https://kaspi.kz/shop/p/samsung-ww80ag6l28beld-belyi-112768209/",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/samsung-ww80ag6l28beld-belyi-112768209/&text=Check+this+product!",
-      "category": "household appliances"
+      "category": "household appliances",
+      "liked": false
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "rating": 4.8,
       "url": "https://kaspi.kz/shop/p/apple-iphone-15-256gb-chernyi-113137897/",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/apple-iphone-15-256gb-chernyi-113137897/&text=Check+this+product!",
-      "category": "phones"
+      "category": "phones",
+      "liked": false
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "rating": 4.7,
       "url": "https://kaspi.kz/shop/p/microsoft-surface-laptop-5-15-32-gb-1-tb-windows-11-seryi-120497796/",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/microsoft-surface-laptop-5-15-32-gb-1-tb-windows-11-seryi-120497796/&text=Check+this+product!",
-      "category": "laptops"
+      "category": "laptops",
+      "liked": false
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "rating": 4.5,
       "url": "https://kaspi.kz/shop/p/hp-15s-eq2125ur-6n0u5ea-serebristyi-109731304/",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/hp-15s-eq2125ur-6n0u5ea-serebristyi-109731304/&text=Check+this+product!",
-      "category": "laptops"
+      "category": "laptops",
+      "liked": false
     },
     {
       "id": 6,
@@ -58,7 +63,8 @@
       "rating": 4.6,
       "url": "https://kaspi.kz/shop/p/hansa-bk3387-6dfvaaw-belyi-112746346/",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/hansa-bk3387-6dfvaaw-belyi-112746346/&text=Check+this+product!",
-      "category": "household appliances"
+      "category": "household appliances",
+      "liked": false
     },
     {
       "id": 7,
@@ -68,7 +74,8 @@
       "rating": 4.8,
       "url": "https://kaspi.kz/shop/p/hp-pavilion-gaming-15-ec1026ur-1w8r7ea-chernyi-100621869/",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/hp-pavilion-gaming-15-ec1026ur-1w8r7ea-chernyi-100621869/&text=Check+this+product!",
-      "category": "laptops"
+      "category": "laptops",
+      "liked": false
     },
     {
       "id": 8,
@@ -78,7 +85,8 @@
       "rating": 4.9,
       "url": "https://kaspi.kz/shop/p/samsung-galaxy-s23-ultra-12-512gb-chernyi-109174566/",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/samsung-galaxy-s23-ultra-12-512gb-chernyi-109174566/&text=Check+this+product!",
-      "category": "phones"
+      "category": "phones",
+      "liked": false
     },
     {
       "id": 9,
@@ -88,7 +96,8 @@
       "rating": 4.7,
       "url": "https://kaspi.kz/shop/p/xiaomi-redmi-note-12-pro-5g-8-gb-256-gb-seryi-109775102/",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/xiaomi-redmi-note-12-pro-5g-8-gb-256-gb-seryi-109775102/&text=Check+this+product!",
-      "category": "phones"
+      "category": "phones",
+      "liked": false
     },
     {
       "id": 10,
@@ -98,7 +107,8 @@
       "rating": 4.6,
       "url": "https://kaspi.kz/shop/p/lenovo-ideapad-3-15-6-4-gb-ssd-256-gb-bez-os-15igl05-81wq00emrk-102878742/",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/lenovo-ideapad-3-15-6-4-gb-ssd-256-gb-bez-os-15igl05-81wq00emrk-102878742/&text=Check+this+product!",
-      "category": "laptops"
+      "category": "laptops",
+      "liked": false
     },
     {
       "id": 11,
@@ -108,7 +118,8 @@
       "rating": 4.6,
       "url": "https://kaspi.kz/shop/p/lg-ms2044v-seryi-112446552/",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/lg-ms2044v-seryi-112446552/&text=Check+this+product!",
-      "category": "household appliances"
+      "category": "household appliances",
+      "liked": false
     },
     {
       "id": 12,
@@ -118,7 +129,8 @@
       "rating": 4.8,
       "url": "https://kaspi.kz/shop/p/dyson-v12-detect-slim-absolute-fioletovyi-serebristyi-102980912/",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/dyson-v12-detect-slim-absolute-fioletovyi-serebristyi-102980912/&text=Check+this+product!",
-      "category": "household appliances"
+      "category": "household appliances",
+      "liked": false
     },
     {
       "id": 13,
@@ -128,7 +140,8 @@
       "rating": 4.7,
       "url": "https://kaspi.kz/shop/p/google-pixel-7-pro-12-gb-256-gb-belyi-107066176/",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/google-pixel-7-pro-12-gb-256-gb-belyi-107066176/&text=Check+this+product!",
-      "category": "phones"
+      "category": "phones",
+      "liked": false
     },
     {
       "id": 14,
@@ -138,7 +151,8 @@
       "rating": 4.8,
       "url": "https://kaspi.kz/shop/p/oneplus-10-pro-12-gb-256-gb-zelenyi-104314138/?srsltid=AfmBOooyc-bERSFNvH3eAWQZdOYlv6SeVtD73bxys6x5_7C27FjsIHRy",
       "telegram": "https://t.me/share/url?url=https://kaspi.kz/shop/p/oneplus-10-pro-12-gb-256-gb-zelenyi-104314138/?srsltid=AfmBOooyc-bERSFNvH3eAWQZdOYlv6SeVtD73bxys6x5_7C27FjsIHRy&text=Check+this+product!",
-      "category": "phones"
+      "category": "phones",
+      "liked": false
     },
     {
       "id": 15,
@@ -148,7 +162,8 @@
       "rating": 4.6,
       "url": "https://kaspi.kz/shop/p/acer-nitro-5-15-6-16-gb-ssd-512-gb-bez-os-an515-57-nh-qeler-00c-107574471/",
       "telegram": "https://kaspi.kz/shop/p/acer-nitro-5-15-6-16-gb-ssd-512-gb-bez-os-an515-57-nh-qeler-00c-107574471/&text=Check+this+product!",
-      "category": "laptops"
+      "category": "laptops",
+      "liked": false
     }
   ]
 }

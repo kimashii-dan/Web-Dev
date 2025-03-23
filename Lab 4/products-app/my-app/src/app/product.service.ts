@@ -10,13 +10,18 @@ export class ProductService {
     console.log('we grab that');
     return (await data.json()) ?? [];
   }
-  async getProductById(id: number): Promise<undefined> {
+
+  async getProductById(id: number): Promise<Product> {
     const data = await fetch(`${this.url}/${id}`);
     return (await data.json()) ?? {};
   }
 
   async getProductsByCategory(category: string): Promise<Product[]> {
-    const data = await fetch(`${this.url}?category=${category}`);
-    return (await data.json()) ?? [];
+    // const data = await fetch(`${this.url}?category=${category}`);
+    // return (await data.json()) ?? [];
+
+    const data = await fetch(this.url);
+    const products: Product[] = (await data.json()) ?? [];
+    return products.filter((product) => product.category === category);
   }
 }
