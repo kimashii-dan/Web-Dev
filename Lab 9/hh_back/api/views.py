@@ -1,10 +1,11 @@
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
+from rest_framework import generics
 from rest_framework import status
 from .models import Company, Vacancy
 from .serializers import CompanySerializer, VacancySerializer
 
-# GET all companies
+# Companies views
 @api_view(['GET'])
 def get_companies(request):
     companies = Company.objects.all()
@@ -31,24 +32,17 @@ def get_company_vacancies(request, id):
     serializer = VacancySerializer(vacancies, many=True)
     return Response(serializer.data)
 
-@api_view(['GET'])
-def get_vacancies(request):
-    vacancies = Vacancy.objects.all()
-    serializer = VacancySerializer(vacancies, many=True)
-    return Response(serializer.data)
 
-@api_view(['GET'])
-def get_vacancy(request, id):
-    try:
-        vacancy = Vacancy.objects.get(id=id)
-        serializer = VacancySerializer(vacancy)
-        return Response(serializer.data)
-    except Vacancy.DoesNotExist:
-        return Response({"error": "Vacancy not found"}, status=status.HTTP_404_NOT_FOUND)
+# Vacancies views
+class VacancyListCreateView(generics.ListCreateAPIView):
+    queryset = Vacancy.objects.all()
+    serializer_class = VacancySerializer
 
+class VacancyRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Vacancy.objects.all()
+    serializer_class = VacancySerializer
+    lookup_field = 'id'
 
-@api_view(['GET'])
-def get_top10_vacancies(request):
-    vacancies_top10 = Vacancy.objects.order_by('-salary')[:10]
-    serializer = VacancySerializer(vacancies_top10, many=True)
-    return Response(serializer.data)
+class VacancyRetrieveTopTenView(generics.ListAPIView):
+    queryset  = Vacancy.objects.order_by('-salary')[:10]
+    serializer_class = VacancySerializer

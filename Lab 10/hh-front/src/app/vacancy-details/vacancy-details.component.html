@@ -1,0 +1,12 @@
+<div class="vacancy">
+  <h1 class="name">{{ vacancy?.name }}</h1>
+  <p class="company">
+    Company:
+    <a [routerLink]="['/companies', vacancy?.company_id]">{{
+      vacancy?.company_name
+    }}</a>
+  </p>
+
+  <p><b>Description:</b> {{ vacancy?.description }}</p>
+  <p><b>Salary:</b> {{ vacancy?.salary }}$</p>
+</div>

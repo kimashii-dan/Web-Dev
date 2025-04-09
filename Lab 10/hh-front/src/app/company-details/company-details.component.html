@@ -1,0 +1,17 @@
+<div class="company">
+  <h1 class="name">{{ company?.name }}</h1>
+  <p><b>Description:</b> {{ company?.description }}</p>
+  <p><b>City:</b> {{ company?.city }}</p>
+  <p><b>Address:</b> {{ company?.address }}</p>
+</div>
+
+<hr />
+
+<div class="vacancies">
+  <div class="vacancy-card" *ngFor="let vacancy of vacancies">
+    <h2>{{ vacancy.name }}</h2>
+    <p>{{ vacancy.description }}</p>
+    <p>Salary: {{ vacancy.salary }}$</p>
+    <a class="apply-btn" [routerLink]="['/vacancies', vacancy.id]">Apply</a>
+  </div>
+</div>
